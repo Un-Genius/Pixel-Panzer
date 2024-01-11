@@ -15,7 +15,7 @@ shader_set(shdTankDamage);
 shader_reset();*/
 
 draw_self();
-
+/*
 // Calculate the position of the top-left corner of the tank sprite
 var cornerX = x - sprite_width / 2;
 var cornerY = y - sprite_height / 2;
@@ -31,7 +31,7 @@ cornerY = y + lengthdir_y(distance, angle);
 
 // Draw the damage mask at the rotated corner position, minus 90 degrees
 draw_surface_ext(damageMask, cornerX, cornerY, image_xscale, image_yscale, direction - 90, c_white, image_alpha);
-
+*/
 // Draw the turret sprite with the new direction
 draw_sprite_ext(turret_sprite1, 0, x, y, image_xscale, image_yscale, turret_direction1, image_blend, image_alpha);
 
